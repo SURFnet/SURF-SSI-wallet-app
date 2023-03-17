@@ -1,0 +1,113 @@
+[
+    {
+        "id": "pbdf-requestors.pbdf",
+        "hostnames": [
+            "privacybydesign.foundation"
+        ],
+        "name": {
+            "en": "Privacy by Design Foundation",
+            "nl": "Stichting Privacy by Design"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.gemeente",
+        "hostnames": [
+            "gw.nijmegen.nl"
+        ],
+        "name": {
+            "en": "Your Municipality",
+            "nl": "Je Gemeente"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.ivido",
+        "hostnames": [
+            "irma.ivido.nl"
+        ],
+        "name": {
+            "en": "Ivido",
+            "nl": "Ivido"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.nuts",
+        "hostnames": [
+            "irma-agb.nuts.nl"
+        ],
+        "name": {
+            "en": "Nuts",
+            "nl": "Nuts"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.surf",
+        "hostnames": [
+            "irma.surfconext.nl"
+        ],
+        "name": {
+            "en": "SURF",
+            "nl": "SURF"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.vgz",
+        "hostnames": [
+            "irma.vgz.nl"
+        ],
+        "name": {
+            "en": "VGZ",
+            "nl": "VGZ"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.gebiedonline",
+        "hostnames": [
+            "irma.gebiedonline.nl"
+        ],
+        "name": {
+            "en": "Gebiedonline",
+            "nl": "Gebiedonline"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.chipsoft",
+        "hostnames": [
+            "irma.hix365.nl"
+        ],
+        "name": {
+            "en": "ChipSoft",
+            "nl": "ChipSoft"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.sidn-email",
+        "hostnames": [
+            "sidnemailissuer.irmaconnect.nl"
+        ],
+        "name": {
+            "en": "SIDN on behalf of Privacy by Design Foundation",
+            "nl": "SIDN namens Stichting Privacy by Design"
+        },
+        "scheme": "pbdf-requestors"
+    },
+    {
+        "id": "pbdf-requestors.amsterdam",
+        "logo": "c5d0f1e727ceeb73531281a6b2bc021fb0935dc3b18b4b3e8fe30f5ae410213b",
+        "hostnames": [
+            "id.amsterdam.nl"
+        ],
+        "name": {
+            "en": "City of Amsterdam",
+            "nl": "Gemeente Amsterdam"
+        },
+        "scheme": "pbdf-requestors"
+    }
+]

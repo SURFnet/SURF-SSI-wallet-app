@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">eduWallet</string>
+
+    <!-- Attributes Received -->
+    <string name="wallet_activated_heading_part_1">eduID connected</string>
+    <string name="wallet_activated_heading_part_2">Your Wallet is activated</string>
+    <string name="wallet_activated_body">The following information has been added to your Wallet and can now be shared.</string>
+    <string name="button_continue">Continue</string>
+
+    <!-- Attribute Request -->
+    <string name="button_share_attributes">Share this information</string>
+
+    <!-- Attribute Shared -->
+    <string name="attribute_shared_header_part_1">Your information</string>
+    <string name="attribute_shared_header_part_2">has been shared</string>
+    <string name="attribute_shared_body">The following information has been shared with</string>
+    <string name="button_got_it">Got it!</string>
+    <string name="attribute_exchange_id">Exchange #%s</string>
+    <string name="attribute_exchange_date">on %s</string>
+    <string name="hint_information_not_stored">This information has not been stored.</string>
+
+    <!-- eduID Onboarding / enrollment -->
+    <string name="eduonboarding_hint_activate_wallet">First you need to activate your Wallet.\n\nActivating is done by connecting the Wallet to your eduID.</string>
+    <string name="eduonboarding_heading">Hi!</string>
+    <string name="eduonboarding_body">The eduID Wallet gives you the ability to securely share your personal educational information.</string>
+    <string name="eduonboarding_body_bullet_1">Use it to share only specific pieces of information at a time.</string>
+    <string name="eduonboarding_body_bullet_2">Withdraw access to your information at any time.</string>
+    <string name="eduonboarding_body_bullet_3">Some third great USP.</string>
+
+    <!-- QR Code scanner -->
+    <string name="qr_code_scanner_heading">Scan the QR-code</string>
+
+    <string name="splash_motto">For secure storage of educational information.\n\nReady to share.</string>
+
+    <!-- Home -->
+    <string name="home_website_link">Elements Website</string>
+
+    <string name="provided_by">Provided by</string>
+    <string name="attribute_in_wallet">This information is available in your wallet</string>
+    <string name="attribute_not_in_wallet">Please add this information to your wallet</string>
+
+    <string name="home_eduonboarding_hint_activate_wallet">First you need to activate your Wallet.\n\nActivating is done by connecting the Wallet to your eduID.</string>
+    <string name="home_eduonboarding_heading">Hi!</string>
+    <string name="home_eduonboarding_body">The eduID Wallet gives you the ability to securely share your personal educational information.\n\n• Use it to share only specific pieces of information at a time.\n• Withdraw access to your information at any time.\n• Some third great USP.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_splash_icon">Elements logo</string>
+
+    <string name="splash">Splash</string>
+    <string name="home">Home</string>
+
+    <!-- Splash screen -->
+    <string name="splash_loading_text">Getting things ready</string>
+
+
+</resources>

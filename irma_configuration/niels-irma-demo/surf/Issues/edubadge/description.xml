@@ -1,0 +1,85 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo eduBadges</en>
+		<nl>Demo eduBadges</nl>
+	</Name>
+	<ShortName>
+		<en>Demo eduBadges</en>
+		<nl>Demo eduBadges</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>surf</IssuerID>
+	<CredentialID>edubadge</CredentialID>
+	<Description>
+		<en>This demo service allow you to collect your eduBages into your IRMA compatible wallet</en>
+		<nl>Deze demonstratie dienst maakt het mogelijk uw eduBages in een IRMA compatible wallet te laden</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.surf.edubadge.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.surf.edubadge.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="learner_id">
+			<Name>
+				<en>eduID identifier</en>
+				<nl>eduID identifier</nl>
+			</Name>
+			<Description>
+				<en>The learner identifier to whom this eduBadge was issued</en>
+				<nl>De identifier van de lerende aan wie deze eduBadge is uitgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="badge_issued_on">
+			<Name>
+				<en>Issue date</en>
+				<nl>Uitgifte datum</nl>
+			</Name>
+			<Description>
+				<en>The date the eduBadge was issuerd to you</en>
+				<nl>De datum waarop de eduBadge aan u is uitgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="badge_logo_url">
+			<Name>
+				<en>Logo URL</en>
+				<nl>Logo URL</nl>
+			</Name>
+			<Description>
+				<en>The URL to the picture of this eduBadge</en>
+				<nl>De URL voor de afbeelding van deze eduBAdge</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="badge_title">
+			<Name>
+				<en>Title</en>
+				<nl>Titel</nl>
+			</Name>
+			<Description>
+				<en>The title of this eduBadge</en>
+				<nl>De titel van deze eduBAdge</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="badge_issuer">
+			<Name>
+				<en>Issuer</en>
+				<nl>Uitgever</nl>
+			</Name>
+			<Description>
+				<en>The institution who issued this eduBadge</en>
+				<nl>De instelling die deze eduBadge heeft uitgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="badge_issuer_logo_url">
+			<Name>
+				<en>Issuer logo </en>
+				<nl>Uitgever logo</nl>
+			</Name>
+			<Description>
+				<en>The logo of the institution who issued this eduBadge</en>
+				<nl>Het logo van de instelling die deze eduBadge heeft uitgegeven</nl>
+			</Description>
+		</Attribute>				
+	</Attributes>
+</IssueSpecification>

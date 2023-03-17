@@ -1,0 +1,6 @@
+{
+    "id": "irma-demo-requestors",
+    "schemetype": "requestor",
+    "demo": true,
+    "url": "https://privacybydesign.foundation/schememanager/irma-demo-requestors"
+}

@@ -1,0 +1,329 @@
+[versions]
+aboutLibraries = "10.2.0"
+accompanist = "0.24.7-alpha"
+androidx-junit = "1.1.3"
+compose = "2022.10.00"
+compose-compiler = "1.3.2"
+composeActivity = "1.6.1"
+composeConstraintlayout = "1.0.1"
+composeNavigation = "2.5.3"
+coroutines = "1.6.1"
+dagger = "2.44"
+datastore = "1.0.0"
+detekt = "1.20.0"
+espresso = "3.4.0"
+hilt = "2.44"
+junit-jupiter = "5.8.2"
+kotlin = "1.7.20" # Also change version in buildSrc/build.gradle.kts
+kotlinxSerialization = "1.3.2"
+ktlint = "0.40.0"
+ktor = "2.0.1"
+lifecycle = "2.4.1"
+mavericks = "3.0.1"
+mobilization = "0.4.0"
+navigationFragment = "2.4.2"
+okhttp = "4.9.3"
+room = "2.4.2"
+spotless = "6.5.1"
+test = "1.4.0"
+threetenbp = "1.6.0"
+truth = "1.0.1"
+uiAutomator = "2.2.0"
+versions = "0.39.0"
+
+[libraries]
+# Gradle plugins
+android-pluginGradle = "com.android.tools.build:gradle:7.4.1" # Also change version in buildSrc/build.gradle.kts
+androidJunit-pluginGradle = "de.mannodermaus.gradle.plugins:android-junit5:1.8.2.0"
+dexcount-pluginGradle = "com.getkeepsafe.dexcount:dexcount-gradle-plugin:2.0.0"
+dokka-pluginGradle = "org.jetbrains.dokka:dokka-android-gradle-plugin:0.9.18"
+jacoco-pluginGradle = "org.jacoco:org.jacoco.core:0.8.8"
+junitPlatform-pluginGradle = "org.junit.platform:junit-platform-gradle-plugin:1.2.0"
+
+# Mobilization
+mobilization-loggingApi = { module = "nl.elements.mobilization:logging-api", version.ref = "mobilization" }
+mobilization-logging = { module = "nl.elements.mobilization:logging", version.ref = "mobilization" }
+mobilization-interactor = { module = "nl.elements.mobilization:interactor", version.ref = "mobilization" }
+
+# Google Android
+google-material = "com.google.android.material:material:1.5.0" # Needed by aboutLibraries
+google-measurementBase = "com.google.android.gms:play-services-measurement-base:20.1.2"
+
+# Kotlin
+kotlin-datetime = "org.jetbrains.kotlinx:kotlinx-datetime:0.3.2"
+kotlin-pluginGradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-testJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+
+# Kotlin coroutines
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+
+# Accompanist (Compose)
+accompanist-flowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
+accompanist-system-ui-controller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+
+# AndroidX
+androidx-annotation = "androidx.annotation:annotation:1.3.0"
+androidx-appcompat = "androidx.appcompat:appcompat:1.4.1" # Needed by aboutLibraries
+androidx-archCoreTesting = "androidx.arch.core:core-testing:2.1.0"
+androidx-benchmark = "androidx.benchmark:benchmark-junit4:1.0.0"
+androidx-browser = "androidx.browser:browser:1.4.0"
+androidx-cardview = "androidx.cardview:cardview:1.0.0" # Needed by aboutLibraries
+androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.3"
+androidx-coreKtx = "androidx.core:core-ktx:1.7.0"
+androidx-fragment = "androidx.fragment:fragment-ktx:1.4.1"
+androidx-palette = "androidx.palette:palette:1.0.0"
+androidx-preference = "androidx.preference:preference-ktx:1.2.0"
+androidx-recyclerview = "androidx.recyclerview:recyclerview:1.2.1" # Needed by aboutLibraries
+androidx-security = "androidx.security:security-crypto:1.0.0"
+
+# AndroidX Test
+androidx-test-core = { module = "androidx.test:core-ktx", version.ref = "test" }
+androidx-test-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "espresso" }
+androidx-test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+androidx-test-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espresso" }
+androidx-test-espresso-web = { module = "androidx.test.espresso:espresso-web", version.ref = "espresso" }
+androidx-test-junit-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-test-junit-junitKtx = { module = "androidx.test.ext:junit-ktx", version.ref = "androidx-junit" }
+androidx-test-rules = { module = "androidx.test:rules", version.ref = "test" }
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "test" }
+androidx-test-truth = { module = "com.google.truth:truth", version.ref = "truth" }
+androidx-test-uiAutomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "uiAutomator" }
+
+# AndroidX Lifecycle
+androidx-lifecycle-common = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycle" }
+androidx-lifecycle-compiler = { module = "androidx.lifecycle:lifecycle-compiler", version.ref = "lifecycle" }
+androidx-lifecycle-extensions = "androidx.lifecycle:lifecycle-extensions:2.2.0"
+androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
+androidx-lifecycle-reactive = { module = "androidx.lifecycle:lifecycle-reactivestreams", version.ref = "lifecycle" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+# AndroidX Room
+androidx-room-common = { module = "androidx.room:room-common", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
+
+androidx-work-runtimeKtx = "androidx.work:work-runtime-ktx:2.7.1"
+
+# AndroidX navigation
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragment" }
+androidx-navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragment" }
+
+# AndroidX Compose
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose" }
+androidx-compose-animation = { group = "androidx.compose.animation", name = "animation" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-compose-layout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-uiToolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-uiTooling = { group = "androidx.compose.ui", name = "ui-tooling" } # use debugImplementation!
+androidx-compose-material = { group = "androidx.compose.material", name = "material" }
+androidx-compose-materialIcons = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+androidx-compose-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding" }
+
+androidx-compose-navigation = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
+androidx-compose-activity = { module = "androidx.activity:activity-compose", version.ref = "composeActivity" }
+androidx-compose-constraintlayout = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "composeConstraintlayout" }
+androidx-compose-uiTest = "androidx.compose.ui:ui-test-junit4:1.1.1"
+
+# Androidx datastore
+androidx-datastore-preferences-core = { module = "androidx.datastore:datastore-preferences-core", version.ref = "datastore" }
+androidx-datastore-preferences-lib = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+androidx-datastore-typed-core = { module = "androidx.datastore:datastore-core", version.ref = "datastore" }
+androidx-datastore-typed-lib = { module = "androidx.datastore:datastore", version.ref = "datastore" }
+
+# okhttp
+okhttpMockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
+
+# Ktor client
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktor" }
+ktor-client-content-negotation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-serialization-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+
+# KotlinX Serialization
+kotlinxSerializationJson = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+
+# Dagger
+dagger-androidProcessor = { module = "com.google.dagger:dagger-android-processor", version.ref = "dagger" }
+dagger-androidSupport = { module = "com.google.dagger:dagger-android", version.ref = "dagger" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+dagger-dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+
+# Dagger Hilt
+dagger-hilt-base = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+dagger-hilt-compose = "androidx.hilt:hilt-navigation-compose:1.0.0"
+dagger-hilt-pluginGradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+dagger-hilt-test = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
+
+# Airbnb
+airbnb-mavericks-compose = { module = "com.airbnb.android:mavericks-compose", version.ref = "mavericks" }
+airbnb-mavericks-hilt = { module = "com.airbnb.android:mavericks-hilt", version.ref = "mavericks" }
+airbnb-mavericks-library = { module = "com.airbnb.android:mavericks", version.ref = "mavericks" }
+
+javaxannotation = "org.glassfish:javax.annotation:10.0-b28"
+
+# Timber
+timber = "com.jakewharton.timber:timber:5.0.1"
+timberkt = "com.github.ajalt:timberkt:1.5.1"
+
+# Misc
+processPhoenix = "com.jakewharton:process-phoenix:2.1.2"
+
+saferoom = "com.commonsware.cwac:saferoom.x:1.3.0"
+
+leakcanary-development = "com.squareup.leakcanary:leakcanary-android:2.9.1"
+
+seismic = "com.squareup:seismic:1.0.3"
+
+google-tink = "com.google.crypto.tink:tink-android:1.6.1"
+
+datastore-encrypted = "io.github.osipxd:encrypted-datastore:1.0.0-alpha02"
+
+coil = "io.coil-kt:coil-compose:2.2.2"
+
+java-poet = "com.squareup:javapoet:1.13.0"
+
+# Unit tests
+junit-junit = "junit:junit:4.13.2"
+robolectric = "org.robolectric:robolectric:4.8"
+mockk = "io.mockk:mockk:1.12.3"
+
+# JUnit
+junit-jupiterApi = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit-jupiter" }
+junit-jupiterEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter" }
+junit-jupiterParams = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit-jupiter" }
+junit-vintageEngine = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit-jupiter" }
+
+# ThreeTen
+threeTen-bp = { module = "org.threeten:threetenbp", version.ref = "threetenbp" }
+threeTen-abp = "com.jakewharton.threetenabp:threetenabp:1.4.0"
+
+# View insets
+insetter = "dev.chrisbanes.insetter:insetter:0.6.1"
+
+# AboutLibraries
+aboutLibraries-core = { module = "com.mikepenz:aboutlibraries-core", version.ref = "aboutLibraries" }
+aboutLibraries-pluginGradle = { module = "com.mikepenz.aboutlibraries.plugin:aboutlibraries-plugin", version.ref = "aboutLibraries" }
+aboutLibraries-ui = { module = "com.mikepenz:aboutlibraries", version.ref = "aboutLibraries" }
+
+
+[bundles]
+mobilization = [
+    "mobilization-loggingApi",
+    "mobilization-logging",
+    "mobilization-interactor"
+]
+
+google = [
+    "google-material",
+    "google-measurementBase",
+]
+
+coroutines = [
+    "coroutines-core",
+    "coroutines-android"
+]
+
+accompanist = [
+    "accompanist-flowLayout",
+    "accompanist-system-ui-controller"
+]
+
+androidx = [
+    "androidx-appcompat",
+    "androidx-browser",
+    "androidx-constraintlayout",
+    "androidx-coreKtx",
+    "androidx-fragment",
+    "androidx-palette",
+    "androidx-preference",
+    "androidx-recyclerview",
+    "androidx-security"
+]
+
+androidxDataStoreLib = [
+    "androidx-datastore-typed-lib",
+    "androidx-datastore-preferences-lib"
+]
+
+androidxDataStoreCore = [
+    "androidx-datastore-typed-core",
+    "androidx-datastore-preferences-core"
+]
+
+androidTestDependencies = [
+    "androidx-test-runner",
+    "androidx-test-rules",
+    "androidx-test-junit-junit",
+    "androidx-test-junit-junitKtx",
+    "androidx-test-espresso-contrib",
+    "androidx-test-espresso-core",
+    "androidx-test-espresso-intents",
+    "androidx-test-espresso-web",
+    "androidx-archCoreTesting",
+    "androidx-test-uiAutomator",
+    "androidx-compose-uiTest",
+]
+
+lifecycle = [
+    "androidx-lifecycle-common",
+    "androidx-lifecycle-extensions",
+    "androidx-lifecycle-livedata",
+    "androidx-lifecycle-process",
+    "androidx-lifecycle-runtime",
+    "androidx-lifecycle-reactive",
+    "androidx-lifecycle-viewmodel"
+]
+
+navigationFragment = [
+    "androidx-navigation-fragment",
+    "androidx-navigation-ui"
+]
+
+compose = [
+    "androidx-compose-activity",
+    "androidx-compose-animation",
+    "androidx-compose-constraintlayout",
+    "androidx-compose-foundation",
+    "androidx-compose-layout",
+    "androidx-compose-material",
+    "androidx-compose-materialIcons",
+    "androidx-compose-navigation",
+    "androidx-compose-runtime",
+    "androidx-compose-ui",
+    "coil"
+]
+
+ktor = [
+    "ktor-client-android",
+    "ktor-client-core",
+    "ktor-client-okhttp",
+    "ktor-client-serialization",
+    "ktor-client-content-negotation",
+    "ktor-client-serialization-json"
+]
+
+mavericks = [
+    "airbnb-mavericks-compose",
+    "airbnb-mavericks-hilt",
+    "airbnb-mavericks-library"
+]
+
+aboutLibraries = [
+    "aboutLibraries-core",
+    "aboutLibraries-ui"
+]
